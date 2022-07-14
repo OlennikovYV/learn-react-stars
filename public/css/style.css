@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.star-rating {
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  line-height: 16px;
+}
+
+.star-rating__count-stars {
+  margin: 0;
+}
