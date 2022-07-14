@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 
-export function Star() {
-  return <FaStar color="gray" />;
+export function Star({ selected = false, onSelect = f => f }) {
+  return <FaStar color={selected ? 'red' : 'gray'} onClick={onSelect} />;
 }
