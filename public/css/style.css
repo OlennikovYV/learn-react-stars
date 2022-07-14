@@ -17,3 +17,11 @@ body {
 .star-rating__count-stars {
   margin: 0;
 }
+
+.star-rating__count-stars_red {
+  color: red;
+}
+
+.star-rating__count-stars_gray {
+  color: gray;
+}
