@@ -18,10 +18,10 @@ body {
   margin: 0;
 }
 
-.star-rating__count-stars_red {
+.star-rating__star_red {
   color: red;
 }
 
-.star-rating__count-stars_gray {
+.star-rating__star_gray {
   color: gray;
 }

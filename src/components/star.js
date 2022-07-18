@@ -5,8 +5,7 @@ export function Star({ selected = false, onSelect = f => f }) {
   return (
     <FaStar
       className={
-        `star-rating__count-stars ` +
-        `star-rating__count-stars_${selected ? 'red' : 'gray'}`
+        `star-rating__star ` + `star-rating__star_${selected ? 'red' : 'gray'}`
       }
       onClick={onSelect}
     />
